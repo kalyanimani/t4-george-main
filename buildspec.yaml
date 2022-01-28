@@ -16,8 +16,20 @@ phases:
 # Include only the files required for your application to run.
 artifacts:
   files:
-    - public/**/*
-    - src/**/*
-    - package.json
+    - client/public/**/*
+    - client/src/**/*
+    - client/package.json
+    - common/**/*
+    - server/auth/**/*
+    - server/client/**/*
+    - server/config/**/*
+    - server/contants/**/*
+    - server/middleware/**/*
+    - server/models/**/*
+    - server/routes/**/*
+    - server/services/**/*
+    - tests/**/*
+    - utils/**/*
+    - validation/**/*
     - appspec.yml
     - scripts/**/*
